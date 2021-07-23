@@ -47,12 +47,7 @@ const TodoForm = () => {
             onChange={e => setTodoString(e.target.value)}
           />
           <InputGroupAddon addonType="prepend">
-            <Button
-              color="warning"
-              //TODO: onClick
-            >
-              Add
-            </Button>
+            <Button color="warning">Add</Button>
           </InputGroupAddon>
         </InputGroup>
       </FormGroup>
